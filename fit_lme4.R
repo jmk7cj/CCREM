@@ -8,7 +8,7 @@ library("lmerTest")
 options(scipen = 99)
 set.seed(5543)
 
-setwd("/Users/jokush/Desktop/jmk/IXL/Research/ccrem/")
+setwd("/Users/Desktop/")
 dlong <- read.csv("cleaned_data.csv") 
 head(dlong, 10)
 # ---------------------------------------------------------------------------- #
