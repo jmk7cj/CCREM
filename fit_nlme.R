@@ -43,7 +43,7 @@ get_re_covariance_matrix <- function(model) {
               "residual_variance" = (model$sigma)^2))
 }
 
-setwd("/Users/jokush/Desktop/jmk/IXL/Research/ccrem/")
+setwd("/Users/Desktop/")
 dlong <- read.csv("cleaned_data.csv") 
 head(dlong, 10)
 # ---------------------------------------------------------------------------- #
