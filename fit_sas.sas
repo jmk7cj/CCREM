@@ -1,7 +1,7 @@
 /* --------------------------------------------------------------------------- */
 /* imoprt and view data
 /* --------------------------------------------------------------------------- */
-proc import datafile="/home/u64192155/mbr/cleaned_data.csv"
+proc import datafile="/home/cleaned_data.csv"
 dbms = csv
 out = data_long
 replace;
